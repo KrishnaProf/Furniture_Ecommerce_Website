@@ -4,8 +4,8 @@ import Categories from '../components/home/Categories'
 import FeaturedProducts from '../components/home/FeaturedProducts'
 import OfferBanners from '../components/home/OfferBanners'
 import BestSeller from '../components/home/BestSeller'
-import NewsLetter from '../components/home/NewsLetter'
-import Footer from '../components/home/Footer'
+import NewsLetter from '../components/NewsLetter'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -38,7 +38,7 @@ const Home = () => {
           <NewsLetter />
         </div>
         <div className='w-full pt-2 px-1 pb-1'>
-          <Footer />
+          
         </div>
     </div>
   )

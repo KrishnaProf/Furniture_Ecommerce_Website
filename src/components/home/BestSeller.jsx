@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import ProductCards from '../home/ProductCards'
+import ProductCards from '../ProductCards'
 import {FaArrowRightLong} from "react-icons/fa6";
 
 const BestSeller = () => {
@@ -19,7 +19,7 @@ const BestSeller = () => {
 
         {data.length > 0 && data.slice(3,9).map((product) => (
             <div key={product.id} className='w-1/4'>
-            <ProductCards name={product.name} price={product.price} images={product.images} />
+            <ProductCards product={product}/>
             </div>
 
         ))}

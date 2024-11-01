@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { RiShoppingCartLine } from "react-icons/ri";
-import { FaRegHeart } from "react-icons/fa";
+import CartOffset from './CartOffset'
+import WishListOffset from './WishListOffset'
 
 const Navbar = () => {
 
@@ -33,8 +33,8 @@ const Navbar = () => {
 
             </div>
             <div className='flex-1 flex text-xl gap-2 justify-end items-center'>
-            <FaRegHeart />
-            <RiShoppingCartLine />
+            <WishListOffset />
+            <CartOffset />
 
             </div>
         </div>
