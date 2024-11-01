@@ -15,7 +15,6 @@ const CartOffset = () => {
         dispatch(removefromCart(id))
     }
     
-    
   return (
     <div>
         <button onClick={() => {setOpen(true)}} className='bg-lime-100 h-10 w-10 cursor-pointer flex justify-center items-center relative rounded-full hover:bg-lime-300 transition-all duration-300 ease-linear'>
